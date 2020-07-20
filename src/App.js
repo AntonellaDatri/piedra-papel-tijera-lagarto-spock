@@ -5,7 +5,7 @@ import Play from './pages/play.js';
 import Instrucciones from'./components/instrucciones'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
-
+//
 function App() {
   return (
     <BrowserRouter>

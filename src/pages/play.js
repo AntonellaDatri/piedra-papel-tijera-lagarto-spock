@@ -1,6 +1,7 @@
 import React from 'react';
 import {useState, useEffect} from 'react';
 import Navbar from '../components/navbar'
+import Resultados from '../components/resultados'
 
 function Play (props){
     const [puntosJugador1, setPuntosJugador1] = useState(0)
@@ -8,7 +9,7 @@ function Play (props){
     const [eleccionJ1, setEleccionJ1] = useState("")
     const [eleccionJ2, setEleccionJ2] = useState("")
     const [ganador, setGanador] = useState("")
-    const [modalState, setModalState] = useState(false)
+    const [showResultados, setShowResultados] = useState(false)
     const opciones = ["Piedra","Papel","Tijeras","Lagarto","Spock"]
     // useEffect(() => {    
     //     }, [])
@@ -23,6 +24,7 @@ function Play (props){
         }else { setGanador("GANO JUADOR 2"); setPuntosJugador2(puntosJugador2+1)}
         setEleccionJ1(seleccionP1)
         setEleccionJ2(seleccionP2)
+        setShowResultados(true)
     } 
 
     const ganaJugador1 = (seleccionP1,seleccionP2) => {
@@ -38,36 +40,34 @@ function Play (props){
         setGanador("")
         setEleccionJ1("")
         setEleccionJ2("")
+        setShowResultados(false)
+        console.log(eleccionJ1 + " " + eleccionJ2 + " " + ganador + " " + showResultados)
     }
 
 
     return (
-        <> 
+        <div>
             <div>
                 <Navbar puntosJ1={puntosJugador1} puntosJ2={puntosJugador2}/>
             </div>
-            <div>
-                <h1>Elige una opcion</h1>
+            <div className="container">
+                <div>
+                    <h1>Elige una opcion</h1>
+                </div>
+                <div>
+                    {opciones.map (content => (
+                            <div>
+                                <button type="button" className="btn btn-outline-success" onClick={()=>verificarGanador(content)}>{content}</button>
+                            </div> 
+                        ))}
+                </div>
+                <div>
+                    {showResultados && <Resultados ganador={ganador} eleccionJ1={eleccionJ1} eleccionJ2={eleccionJ2} onClick={()=>resetear()}/>}
+                </div>
             </div>
-            <div>
-                {opciones.map (content => (
-                        <div>
-                            <button type="button" className="btn btn-outline-success" onClick={()=>verificarGanador(content)}>{content}</button>
-                        </div> 
-                    ))}
-            </div>
-            <div>
-                <h4>{ganador}</h4>
-            </div>
-            <div>
-                <h4>{eleccionJ1}</h4>
-                <h4>{eleccionJ2}</h4>
-            </div>
-            <div>
-                <button type="button" className="btn btn-outline-success" onClick={()=>resetear}>Jugar otra vez</button>
-            </div>
-        </>
-    );
+                
+        </div>
+    ); 
 }
 
 function random_item(items){
