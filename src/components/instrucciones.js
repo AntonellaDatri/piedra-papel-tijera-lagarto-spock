@@ -17,11 +17,11 @@ function Instucciones(props) {
     <div >
         <Navbar text={texto()}/>
       <div className="instruccion-content container">
-        <p> El juego es una expansión del juego Piedra, Papel, Tijera. Cada jugador elige una variable y la revela al mismo tiempo. El ganador es el que derrota a los demás. En un empate, el proceso se repite hasta que se encuentra un ganador.</p>
+        <p className="fuente-contenido"> El juego es una expansión del juego Piedra, Papel, Tijera. Cada jugador elige una variable y la revela al mismo tiempo. El ganador es el que derrota a los demás. En un empate, el proceso se repite hasta que se encuentra un ganador.</p>
         <div className="image-instruccion-position">
          <img className="image-instruccion" src={InstuccionImage} alt="Instruccionees del juego"></img>
         </div>
-        <div>
+        <div className="reglas fuente-contenido">
           <ul>
               <li>Tijeras corta papel</li>
               <li>Cubiertas de papel Rock</li>

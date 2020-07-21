@@ -2,23 +2,32 @@ import React from 'react';
 import {useState, useEffect} from 'react';
 import Navbar from '../components/navbar'
 import Resultados from '../components/resultados'
+import Piedra from '../images/piedra.png'
+import Papel from '../images/papel.png'
+import Tijera from '../images/tijera.png'
+import Lagarto from '../images/lagarto.png'
+import Spock from '../images/spock.png'
 
 function Play (props){
     const [puntosJugador1, setPuntosJugador1] = useState(0)
     const [puntosJugador2, setPuntosJugador2] = useState(0)
-    const [eleccionJ1, setEleccionJ1] = useState("")
-    const [eleccionJ2, setEleccionJ2] = useState("")
+    const [eleccionJ1, setEleccionJ1] = useState(null)
+    const [eleccionJ2, setEleccionJ2] = useState(null)
     const [ganador, setGanador] = useState("")
     const [showResultados, setShowResultados] = useState(false)
-    const opciones = ["Piedra","Papel","Tijeras","Lagarto","Spock"]
+    const opciones = [  {tipo:"Piedra", image:Piedra},
+                        {tipo:"Papel", image:Papel},
+                        {tipo:"Tijeras", image:Tijera},
+                        {tipo:"Lagarto", image:Lagarto},
+                        {tipo:"Spock", image:Spock}]
     // useEffect(() => {    
     //     }, [])
 
     const verificarGanador = (seleccionP1) =>{
         let seleccionP2 = random_item(opciones)
-        if (seleccionP2 === seleccionP1){
+        if (seleccionP2.tipo === seleccionP1.tipo){
             setGanador("EMPATE",seleccionP1)
-        }else if (ganaJugador1(seleccionP1,seleccionP2)){
+        }else if (ganaJugador1(seleccionP1.tipo,seleccionP2.tipo)){
             setGanador("GANO JUADOR 1")
             setPuntosJugador1(puntosJugador1+1)
         }else { setGanador("GANO JUADOR 2"); setPuntosJugador2(puntosJugador2+1)}
@@ -56,14 +65,16 @@ function Play (props){
                 <Navbar text={texto()}/>
             </div>
             <div className="container">
-                
-                <div>
-                    <h1>Elige una opcion</h1>
+                <div className="titulo" >
+                    <p className="title-style" font-size="60px" >Piedra Papel Tijera Lagarto Spock</p>
                 </div>
                 <div>
+                    <h2 className="fuente-contenido">Elige una opcion</h2>
+                </div>
+                <div className="row elecciones">
                     {opciones.map (content => (
-                            <div className="container">
-                                <button type="button" className="btn btn-outline-success" onClick={()=>verificarGanador(content)}>{content}</button>
+                            <div className="eleccion">
+                                <img src={content.image}  onClick={()=>verificarGanador(content)} width="100" alt={content.tipo}></img>
                             </div> 
                         ))}
                 </div>

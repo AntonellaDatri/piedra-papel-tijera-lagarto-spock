@@ -6,7 +6,7 @@ function Navbar(props) {
     const {text} = props
   return (
     <>
-        <nav class="navbar navbar-light bg-light navbar-position">
+        <nav class="navbar-light bg-light navbar-position">
             <div>
                 <Link class="navbar-brand" to="/">
                     <img src={ArrowLeftShort} width="40" alt="cerrar"></img> 
