@@ -11,7 +11,7 @@
 }
 
 .background-container {
-  background-color: #87dce7;
+  background-color: #f5f374;
   position: absolute;
   top: 0;
   left: 0;
@@ -19,9 +19,23 @@
   height: 80%;
 }
 
-.ganador{
-  color: rgb(255, 255, 255);
+.btn-position{
   text-align: center;
+}
+
+.btn-dark{
+  color: #fff;
+  background-color: #1def49;
+  border-color: #09cf2a
+}
+
+.btn-outline-light {
+  color: #ff2681;
+  border-color: #f54b92;
+}
+
+.container{
+  padding-top: 10px;
 }
 
 .elecciones{
@@ -29,6 +43,52 @@
   justify-content: space-between;
 }
 
-.btn-position{
+.ganador{
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+h1{
+    font-size: 4.5rem;
+    color: #fff;
+    font-family: cursive;
+    text-align: center;
+}
+
+.image-instruccion-position{
+  text-align: center;
+ 
+}
+
+.image-instruccion{
+  width: 80%;
+  max-width: 450px;
+}
+
+.navbar-position{
+  position: fixed;
+  width: 100%;
+}
+
+.opciones{
+  padding: 0.75rem;
+  height: 18rem;
+  transition: all .3s;
+}
+
+p{
+  max-width: 700px;
+  justify-self: center;
+  text-align: justify;
+  padding-top: 50px;
+}
+
+.instruccion-content{
+  display: grid;
+  
+}
+
+ul{
+  list-style: none;
   text-align: center;
 }

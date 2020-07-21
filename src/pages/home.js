@@ -12,10 +12,10 @@ function Home() {
         <div className="container ">
           <h1>Piedra Papel Tijera Lagarto Spock</h1>
           <Link  to ="/play"> 
-            <button type="button" className="btn btn-outline-success">Jugar</button>
+            <button type="button" className="btn btn-dark">Jugar</button>
           </Link>
           <Link  to ="/instrucciones"> 
-            <button type="button" className="btn btn-outline-primary">Como jugar</button>
+            <button type="button" className="btn btn-outline-light">Como jugar</button>
           </Link>
         </div>
       </div>

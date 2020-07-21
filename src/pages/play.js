@@ -29,11 +29,11 @@ function Play (props){
 
     const ganaJugador1 = (seleccionP1,seleccionP2) => {
         return (
-        (seleccionP1 === "Tijeras" && (seleccionP2==="Papel" || seleccionP2==="Lagarto")) ||
-        (seleccionP1 === "Papel" && (seleccionP2==="Piedra" || seleccionP2==="Spock"))    ||
-        (seleccionP1 === "Piedra" && (seleccionP2==="Lagarto" || seleccionP2==="tijera")) ||
-        (seleccionP1 === "Lagarto" && (seleccionP2==="Spock" || seleccionP2==="Papel"))   ||
-        (seleccionP1 === "Spock" && (seleccionP2==="Tijeras" || seleccionP2==="Piedra")))
+        (seleccionP1 === "Tijeras" && (seleccionP2==="Papel"   || seleccionP2==="Lagarto")) ||
+        (seleccionP1 === "Papel"   && (seleccionP2==="Piedra"  || seleccionP2==="Spock"))   ||
+        (seleccionP1 === "Piedra"  && (seleccionP2==="Lagarto" || seleccionP2==="tijera"))  ||
+        (seleccionP1 === "Lagarto" && (seleccionP2==="Spock"   || seleccionP2==="Papel"))   ||
+        (seleccionP1 === "Spock"   && (seleccionP2==="Tijeras" || seleccionP2==="Piedra")))
     }
 
     const resetear = () =>{
@@ -44,19 +44,25 @@ function Play (props){
         console.log(eleccionJ1 + " " + eleccionJ2 + " " + ganador + " " + showResultados)
     }
 
+    const texto = () => {
+        return(
+            <h4>{puntosJugador1} - {puntosJugador2}</h4>
+        )
+    }
 
     return (
-        <div>
+        <div className="background-container">
             <div>
-                <Navbar puntosJ1={puntosJugador1} puntosJ2={puntosJugador2}/>
+                <Navbar text={texto()}/>
             </div>
             <div className="container">
+                
                 <div>
                     <h1>Elige una opcion</h1>
                 </div>
                 <div>
                     {opciones.map (content => (
-                            <div>
+                            <div className="container">
                                 <button type="button" className="btn btn-outline-success" onClick={()=>verificarGanador(content)}>{content}</button>
                             </div> 
                         ))}
