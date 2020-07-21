@@ -12,7 +12,7 @@ function Navbar(props) {
                     <img src={ArrowLeftShort} width="40" alt="cerrar"></img> 
                 </Link>
             </div>
-            <div>
+            <div className="navar-title fuente-contenido">
                 <h4>{text}</h4>
             </div>
         </nav>

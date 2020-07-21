@@ -28,9 +28,9 @@ function Play (props){
         if (seleccionP2.tipo === seleccionP1.tipo){
             setGanador("EMPATE",seleccionP1)
         }else if (ganaJugador1(seleccionP1.tipo,seleccionP2.tipo)){
-            setGanador("GANO JUADOR 1")
+            setGanador("GANASTE!!")
             setPuntosJugador1(puntosJugador1+1)
-        }else { setGanador("GANO JUADOR 2"); setPuntosJugador2(puntosJugador2+1)}
+        }else { setGanador("PERDISTE :c"); setPuntosJugador2(puntosJugador2+1)}
         setEleccionJ1(seleccionP1)
         setEleccionJ2(seleccionP2)
         setShowResultados(true)
@@ -40,7 +40,7 @@ function Play (props){
         return (
         (seleccionP1 === "Tijeras" && (seleccionP2==="Papel"   || seleccionP2==="Lagarto")) ||
         (seleccionP1 === "Papel"   && (seleccionP2==="Piedra"  || seleccionP2==="Spock"))   ||
-        (seleccionP1 === "Piedra"  && (seleccionP2==="Lagarto" || seleccionP2==="tijera"))  ||
+        (seleccionP1 === "Piedra"  && (seleccionP2==="Lagarto" || seleccionP2==="Tijeras"))  ||
         (seleccionP1 === "Lagarto" && (seleccionP2==="Spock"   || seleccionP2==="Papel"))   ||
         (seleccionP1 === "Spock"   && (seleccionP2==="Tijeras" || seleccionP2==="Piedra")))
     }

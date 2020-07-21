@@ -18,7 +18,7 @@ function Home() {
               <button type="button" className="btn btn-dark">Jugar</button>
             </Link>
             <Link  to ="/instrucciones"> 
-              <button type="button" className="btn btn-outline-secondary">Como jugar</button>
+              <button type="button" className="btn btn-outline-light">Como jugar</button>
             </Link>
           </div>
         </div>

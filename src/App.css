@@ -11,7 +11,7 @@
 }
 
 .background-container {
-  background-color: #f5f374;
+  background-color: #e77a2c;
   position: absolute;
   top: 0;
   left: 0;
@@ -19,9 +19,11 @@
 }
 
 .btn {
-  width: 50%;
+  width: 40%;
   padding: 10px;
   margin: 5px;
+  font-size: larger !important;
+  font-family: cursive;
 }
 
 .btn-position{
@@ -63,12 +65,14 @@
 .ganador{
   color: rgb(255, 255, 255);
   text-align: center;
+  font-size: 60px;
 }
 
 .home-btn{
   text-align: center;
   padding-top: 25px;
-  padding-bottom: 100px
+  padding-bottom: 100px;
+  display: grid;
 }
 
 .image-instruccion-position{
@@ -83,19 +87,22 @@
 
 .instruccion-content{
   display: grid;
-  background-color: #fcff97; 
+  background-color: #e77a2cd9; 
   padding-top: 55px;
 }
 
 .navbar-position{
   position: fixed;
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
     align-items: center;
-    justify-content: space-between;
     padding-right: .5rem;
     padding-left: .5rem;
+}
+
+.navar-title{
+  text-align: center;
 }
 
 .opciones{
@@ -136,5 +143,5 @@ ul{
 .fuente-contenido{
   font-family: cursive;
   font-style: italic;
-  color: #484747;
+  color: #424242;
 }
