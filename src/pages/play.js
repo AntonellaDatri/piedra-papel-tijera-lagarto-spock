@@ -27,7 +27,7 @@ function Play (props){
         }else if (ganaJugador1(seleccionP1.tipo,seleccionP2.tipo)){
             setGanador("GANASTE!!")
             setPuntosJugador1(puntosJugador1+1)
-        }else { setGanador("PERDISTE :c"); setPuntosJugador2(puntosJugador2+1)}
+        }else { setGanador("PERDISTE"); setPuntosJugador2(puntosJugador2+1)}
         setEleccionJ1(seleccionP1)
         setEleccionJ2(seleccionP2)
         setShowResultados(true)
@@ -47,7 +47,6 @@ function Play (props){
         setEleccionJ1("")
         setEleccionJ2("")
         setShowResultados(false)
-        console.log(eleccionJ1 + " " + eleccionJ2 + " " + ganador + " " + showResultados)
     }
 
     const texto = () => {
