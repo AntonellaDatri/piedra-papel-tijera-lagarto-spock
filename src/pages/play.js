@@ -1,5 +1,4 @@
-import React from 'react';
-import {useState, useEffect} from 'react';
+import React,{useState} from 'react';
 import Navbar from '../components/navbar'
 import Resultados from '../components/resultados'
 import Piedra from '../images/piedra.png'
@@ -20,8 +19,6 @@ function Play (props){
                         {tipo:"Tijeras", image:Tijera},
                         {tipo:"Lagarto", image:Lagarto},
                         {tipo:"Spock", image:Spock}]
-    // useEffect(() => {    
-    //     }, [])
 
     const verificarGanador = (seleccionP1) =>{
         let seleccionP2 = random_item(opciones)
@@ -73,7 +70,7 @@ function Play (props){
                 </div>
                 <div className="row elecciones">
                     {opciones.map (content => (
-                            <div className="eleccion">
+                            <div key={content.tipo} className="eleccion">
                                 <img src={content.image}  onClick={()=>verificarGanador(content)} width="100" alt={content.tipo}></img>
                             </div> 
                         ))}

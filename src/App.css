@@ -93,12 +93,12 @@
 
 .navbar-position{
   position: fixed;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr; 
-    align-items: center;
-    padding-right: .5rem;
-    padding-left: .5rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  align-items: center;
+  padding-right: .5rem;
+  padding-left: .5rem;
 }
 
 .navar-title{
@@ -124,7 +124,6 @@ p{
 
 .titulo{
   margin-top: 7%;
-  /* max-width: 700px; */
   justify-content: center;
   justify-self: center;
 }

@@ -1,8 +1,6 @@
 import React from 'react';
 import Navbar from './navbar'
-import { Link, useHistory } from 'react-router-dom';
 import InstuccionImage from '../images/RPSLS.png'
-import ArrowLeftShort from '../images/Arrow-left-short.svg'
 
 
 function Instucciones() {
