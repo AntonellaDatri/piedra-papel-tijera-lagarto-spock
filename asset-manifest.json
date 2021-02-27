@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/css/main.ed3d8683.chunk.css",
-    "main.js": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/js/main.149a9eda.chunk.js",
-    "main.js.map": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/js/main.149a9eda.chunk.js.map",
+    "main.js": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/js/main.2f508ece.chunk.js",
+    "main.js.map": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/js/main.2f508ece.chunk.js.map",
     "runtime-main.js": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/js/runtime-main.d1cba883.js",
     "runtime-main.js.map": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/js/runtime-main.d1cba883.js.map",
     "static/css/2.af3c1da9.chunk.css": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/css/2.af3c1da9.chunk.css",
     "static/js/2.359330c0.chunk.js": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/js/2.359330c0.chunk.js",
     "static/js/2.359330c0.chunk.js.map": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/js/2.359330c0.chunk.js.map",
     "index.html": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/index.html",
-    "precache-manifest.17b0f7393343abf783d082cf5f384a2d.js": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/precache-manifest.17b0f7393343abf783d082cf5f384a2d.js",
+    "precache-manifest.361f3342d205a984095e18f6611befa0.js": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/precache-manifest.361f3342d205a984095e18f6611befa0.js",
     "service-worker.js": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.ed3d8683.chunk.css.map": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/css/main.ed3d8683.chunk.css.map",
@@ -27,6 +27,6 @@
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.359330c0.chunk.js",
     "static/css/main.ed3d8683.chunk.css",
-    "static/js/main.149a9eda.chunk.js"
+    "static/js/main.2f508ece.chunk.js"
   ]
 }
