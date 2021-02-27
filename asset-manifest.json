@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/css/main.ed3d8683.chunk.css",
-    "main.js": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/js/main.56128a83.chunk.js",
-    "main.js.map": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/js/main.56128a83.chunk.js.map",
+    "main.js": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/js/main.cb132be3.chunk.js",
+    "main.js.map": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/js/main.cb132be3.chunk.js.map",
     "runtime-main.js": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/js/runtime-main.d1cba883.js",
     "runtime-main.js.map": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/js/runtime-main.d1cba883.js.map",
     "static/css/2.af3c1da9.chunk.css": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.bbd96415.chunk.js": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/js/2.bbd96415.chunk.js",
-    "static/js/2.bbd96415.chunk.js.map": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/js/2.bbd96415.chunk.js.map",
+    "static/js/2.e4a2603b.chunk.js": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/js/2.e4a2603b.chunk.js",
+    "static/js/2.e4a2603b.chunk.js.map": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/js/2.e4a2603b.chunk.js.map",
     "index.html": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/index.html",
-    "precache-manifest.fe53121ae58ead798a53d3defa2815c3.js": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/precache-manifest.fe53121ae58ead798a53d3defa2815c3.js",
+    "precache-manifest.6d8a30dd076fbb53fb36681ec8fda415.js": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/precache-manifest.6d8a30dd076fbb53fb36681ec8fda415.js",
     "service-worker.js": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.ed3d8683.chunk.css.map": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/css/main.ed3d8683.chunk.css.map",
-    "static/js/2.bbd96415.chunk.js.LICENSE.txt": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/js/2.bbd96415.chunk.js.LICENSE.txt",
+    "static/js/2.e4a2603b.chunk.js.LICENSE.txt": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/js/2.e4a2603b.chunk.js.LICENSE.txt",
     "static/media/Arrow-left-short.svg": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/media/Arrow-left-short.33fcecc2.svg",
     "static/media/RPSLS.png": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/media/RPSLS.2787eae1.png",
     "static/media/lagarto.png": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/media/lagarto.e8609392.png",
@@ -25,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.d1cba883.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.bbd96415.chunk.js",
+    "static/js/2.e4a2603b.chunk.js",
     "static/css/main.ed3d8683.chunk.css",
-    "static/js/main.56128a83.chunk.js"
+    "static/js/main.cb132be3.chunk.js"
   ]
 }

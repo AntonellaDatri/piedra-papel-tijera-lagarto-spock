@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f94d5c2da3128c752185e23620978851",
+    "revision": "cddd5bb0607b190b481fed89cfcda29f",
     "url": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/index.html"
   },
   {
-    "revision": "580a6dd2fb796d4992f6",
+    "revision": "3bc40af7b51cf7e8b878",
     "url": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "fa92aa3b8d4739fa87c2",
+    "revision": "45de57563d88cc7e0472",
     "url": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/css/main.ed3d8683.chunk.css"
   },
   {
-    "revision": "580a6dd2fb796d4992f6",
-    "url": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/js/2.bbd96415.chunk.js"
+    "revision": "3bc40af7b51cf7e8b878",
+    "url": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/js/2.e4a2603b.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/js/2.bbd96415.chunk.js.LICENSE.txt"
+    "url": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/js/2.e4a2603b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fa92aa3b8d4739fa87c2",
-    "url": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/js/main.56128a83.chunk.js"
+    "revision": "45de57563d88cc7e0472",
+    "url": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/js/main.cb132be3.chunk.js"
   },
   {
     "revision": "f03c64ed5b95c3ddc99c",
