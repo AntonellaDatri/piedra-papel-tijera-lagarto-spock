@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/css/main.ed3d8683.chunk.css",
+    "main.js": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/js/main.9ca386f7.chunk.js",
+    "main.js.map": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/js/main.9ca386f7.chunk.js.map",
+    "runtime-main.js": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/js/runtime-main.d1cba883.js",
+    "runtime-main.js.map": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/js/runtime-main.d1cba883.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.bbd96415.chunk.js": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/js/2.bbd96415.chunk.js",
+    "static/js/2.bbd96415.chunk.js.map": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/js/2.bbd96415.chunk.js.map",
+    "index.html": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/index.html",
+    "precache-manifest.fa0fb224161efdfc30a6a6223f0124e2.js": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/precache-manifest.fa0fb224161efdfc30a6a6223f0124e2.js",
+    "service-worker.js": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.ed3d8683.chunk.css.map": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/css/main.ed3d8683.chunk.css.map",
+    "static/js/2.bbd96415.chunk.js.LICENSE.txt": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/js/2.bbd96415.chunk.js.LICENSE.txt",
+    "static/media/Arrow-left-short.svg": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/media/Arrow-left-short.33fcecc2.svg",
+    "static/media/RPSLS.png": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/media/RPSLS.2787eae1.png",
+    "static/media/lagarto.png": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/media/lagarto.e8609392.png",
+    "static/media/papel.png": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/media/papel.5647840a.png",
+    "static/media/piedra.png": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/media/piedra.f8e1fb17.png",
+    "static/media/spock.png": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/media/spock.188f7143.png",
+    "static/media/tijera.png": "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/static/media/tijera.988df82d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d1cba883.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.bbd96415.chunk.js",
+    "static/css/main.ed3d8683.chunk.css",
+    "static/js/main.9ca386f7.chunk.js"
+  ]
+}
