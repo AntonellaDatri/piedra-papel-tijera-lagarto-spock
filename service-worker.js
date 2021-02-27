@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/precache-manifest.6bb46e74112ad3642dd25c9865cd55b4.js"
+  "/AntonellaDatri/piedra-papel-tijera-lagarto-spock/precache-manifest.dee55c666de283f86dc913d8d200799b.js"
 );
 
 self.addEventListener('message', (event) => {
