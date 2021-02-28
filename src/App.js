@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter,Switch,Route} from 'react-router-dom'
+import {BrowserRouter,Switch,Route, HashRouter} from 'react-router-dom'
 import Home from './pages/home.js';
 import Play from './pages/play.js';
 import Instrucciones from'./components/instrucciones'
@@ -8,13 +8,14 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (
-    <BrowserRouter>
-      <Switch>
-        <Route path="/play" component={Play} />
-        <Route path="/instrucciones" component={Instrucciones} />
-        <Route  path="/" component={Home} />
-      </Switch>
-    </BrowserRouter>
+    <div>
+      <HashRouter basename={process.env.PUBLIC_URL+"/"}>
+        <Route exact path="/play" component={Play} />
+        <Route exact path="/instrucciones" component={Instrucciones} />
+        <Route exact path="/" component={Home} />
+      </HashRouter>
+    </div>
+    
   );
 }
 
